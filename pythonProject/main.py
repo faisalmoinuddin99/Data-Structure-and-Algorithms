@@ -22,8 +22,8 @@ if __name__ == '__main__':
     # expected output [3, 4, 6, 16, 17]
     op = []
     for i in range(1, len(nums)):
-        nums[i] = nums[i-1] + nums[i]
-    print(nums) # [3, 4, 6, 16, 17]
-
+        nums[i] = nums[i - 1] + nums[i]
+    print(nums)  # [3, 4, 6, 16, 17]
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    
